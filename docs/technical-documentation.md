@@ -71,27 +71,27 @@ setInterval(() => {
 -Randomly selects a project
 -Highlights it
 -Scrolls into view
-### 5. Performance
+## 5. Performance
    **Optimizations:** 
    -Lazy loading images
    -Minimal DOM updates
    -Reusable functions
-### 6. User Experience
+## 6. User Experience
    **Improvements:**
    Instructions shown to user
    Helpful error messages
    Responsive layout
    Clean UI
-### 7. Compatibility
+## 7. Compatibility
    Tested on:
    Chrome
    Edge
    Mobile screens
-### 8. Future Improvements
+## 8. Future Improvements
    Project modal
    Backend contact form
    Animations
-### 9. Conclusion
+## 9. Conclusion
    This project demonstrates:
    API integration
    Advanced logic
