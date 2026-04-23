@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Zahra Almadeh | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="#top" class="brand">Zahra<span>.</span></a>
+
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="btn btn-ghost" id="themeToggle" type="button" aria-label="Toggle dark mode">
+            🌙
+        </button>
+    </div>
+</header>
+
+<main id="top">
+    <section id="about" class="section hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <p class="eyebrow">Software Engineering Student</p>
+                    <h1 class="title">Zahra Almadeh</h1>
+                    <p class="muted about-text">
+                        Software Engineering student at KFUPM, passionate about building useful systems, intelligent applications, and clean user-focused software solutions.
+                    </p>
+
+                    <p class="hero-badges">
+                        <span class="badge">Junior Student at KFUPM</span>
+                        <span class="badge">AI &amp; Machine Learning</span>
+                        <span class="badge">Database Design</span>
+                        <span class="badge">Java &amp; OOP</span>
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn" href="#projects">View Projects</a>
+                        <a class="btn btn-ghost solid-ghost" href="#contact">Contact Me</a>
+                        <a class="btn btn-ghost solid-ghost" href="assets/Zahra Almadeh-Resume copy.pdf" target="_blank" rel="noopener">Resume</a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <p id="welcomeMessage" class="muted"></p>
+                        <p id="visitTimer" class="muted"></p>
+                    </div>
+                </div>
+
+                <div class="hero-card card">
+                    <img
+                            class="profile-img"
+                            src="assets/images/me.png"
+                            alt="Profile photo of Zahra Almadeh"
+                            loading="lazy"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h2>Skills</h2>
+                <p class="muted">
+                    Technologies and areas I developed through coursework, projects, and portfolio work.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="card skill-card">
+                    <h3>Programming Languages</h3>
+                    <p class="muted">Java, Python, SQL, JavaScript, HTML, CSS</p>
+                </article>
+
+                <article class="card skill-card">
+                    <h3>Technical Areas</h3>
+                    <p class="muted">AI &amp; Machine Learning, Object-Oriented Programming, Database Design, Data Structures, Web Development</p>
+                </article>
+
+                <article class="card skill-card">
+                    <h3>Tools &amp; Concepts</h3>
+                    <p class="muted">Git, GitHub, VS Code, UML, localStorage, Fetch API, Responsive Design</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-head">
+                <h2>Projects</h2>
+                <p class="muted">
+                    A selection of academic and technical projects demonstrating AI, database, OOP, and data structure skills.
+                </p>
+                <p class="muted section-guide">
+                    Use the filter buttons and sorting menu to explore projects by category or order. You can also use Project Spotlight for a random featured project.
+                </p>
+            </div>
+
+            <div class="project-toolbar card">
+                <div class="filter-buttons" role="group" aria-label="Project filters">
+                    <button class="filter-btn active" data-filter="all" type="button">All</button>
+                    <button class="filter-btn" data-filter="ai" type="button">AI</button>
+                    <button class="filter-btn" data-filter="database" type="button">Database</button>
+                    <button class="filter-btn" data-filter="java" type="button">Java</button>
+                    <button class="filter-btn" data-filter="github" type="button">GitHub</button>
+                </div>
+
+                <div class="toolbar-actions">
+                    <div class="sort-box">
+                        <label for="sortProjects">Sort by</label>
+                        <select id="sortProjects" aria-label="Sort projects">
+                            <option value="default">Default</option>
+                            <option value="name-asc">Name (A–Z)</option>
+                            <option value="name-desc">Name (Z–A)</option>
+                            <option value="date-new">Newest</option>
+                            <option value="date-old">Oldest</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-ghost" id="spotlightProject" type="button">
+                        Project Spotlight
+                    </button>
+                </div>
+            </div>
+
+            <p id="emptyMessage" class="muted empty-message">
+                No projects match the selected filter. Try another category or sorting option.
+            </p>
+
+            <div class="projects-grid" id="projectsGrid">
+                <article
+                        class="card project-card"
+                        data-category="ai"
+                        data-name="Airplane Accident Severity Classification"
+                        data-date="2025-04-15"
+                >
+                    <div class="project-body">
+                        <div class="project-top">
+                            <span class="project-tag">AI / Deep Learning</span>
+                            <span class="project-date">Apr 2025</span>
+                        </div>
+                        <h3>Airplane Accident Severity Classification</h3>
+                        <p class="muted">
+                            Engineered a Deep Neural Network (MLP) in Python to classify airplane accident severity using
+                            10,000+ records and 10+ features. Achieved 92.3% accuracy with over 90% precision and recall,
+                            and benchmarked performance against KNN and SVM using feature scaling and 5-fold cross-validation.
+                        </p>
+                        <div class="project-links">
+                            <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                        class="card project-card"
+                        data-category="database"
+                        data-name="Campus Events Database System"
+                        data-date="2025-03-20"
+                >
+                    <div class="project-body">
+                        <div class="project-top">
+                            <span class="project-tag">SQL / Database</span>
+                            <span class="project-date">Mar 2025</span>
+                        </div>
+                        <h3>Campus Events Database System</h3>
+                        <p class="muted">
+                            Structured a BCNF-normalized relational database covering 10+ entities and relationships to
+                            ensure consistency and reduce redundancy. Created 20+ SQL queries, procedures, triggers, and
+                            views, then validated the system through multiple functional test cases.
+                        </p>
+                        <div class="project-links">
+                            <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                        class="card project-card"
+                        data-category="java"
+                        data-name="Course Scheduling and Route Planner"
+                        data-date="2025-02-10"
+                >
+                    <div class="project-body">
+                        <div class="project-top">
+                            <span class="project-tag">Java / OOP</span>
+                            <span class="project-date">Feb 2025</span>
+                        </div>
+                        <h3>Course Scheduling &amp; Route Planner</h3>
+                        <p class="muted">
+                            Developed a Java-based system supporting multi-course input and day-based scheduling across
+                            multiple locations. Applied Composite and Strategy design patterns and modeled the architecture
+                            using 5+ UML classes and modules for a flexible and maintainable design.
+                        </p>
+                        <div class="project-links">
+                            <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                        class="card project-card"
+                        data-category="java"
+                        data-name="Student Records Management System"
+                        data-date="2024-11-25"
+                >
+                    <div class="project-body">
+                        <div class="project-top">
+                            <span class="project-tag">Java / Data Structures</span>
+                            <span class="project-date">Nov 2024</span>
+                        </div>
+                        <h3>Student Records Management System</h3>
+                        <p class="muted">
+                            Implemented a Java-based student records system using hash table indexing with full CRUD
+                            operations and multiple search methods. Managed structured data through CSV storage and a
+                            menu-driven command-line interface with validation logic for reliable record handling.
+                        </p>
+                        <div class="project-links">
+                            <a class="link" href="#" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="api-section">
+                <div class="section-head api-head">
+                    <h3>Latest GitHub Repositories</h3>
+                    <p class="muted">
+                        Live repositories are loaded from GitHub. If loading fails, a clear fallback message will be shown.
+                    </p>
+                </div>
+                <div id="githubStatus" class="muted api-status" aria-live="polite"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-head">
+                <h2>Contact</h2>
+                <p class="muted">
+                    Send a message or feedback. Please use a valid email address so I can reply.
+                </p>
+            </div>
+
+            <form class="card form" id="contactForm" novalidate>
+                <div class="form-row">
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Your full name" required />
+                    </label>
+
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="name@example.com" required />
+                    </label>
+                </div>
+
+                <label>
+                    Message
+                    <textarea
+                            name="message"
+                            rows="5"
+                            placeholder="Write at least 10 characters..."
+                            required
+                    ></textarea>
+                </label>
+
+                <div class="form-actions">
+                    <button class="btn" type="submit">Send</button>
+                    <p class="muted" id="formStatus" aria-live="polite"></p>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p class="muted footer-name">
+            © <span id="year"></span> Zahra Almadeh
+            <span class="dot">•</span>
+            <a class="link" href="mailto:almadehzahra05@gmail.com">almadehzahra05@gmail.com</a>
+            <span class="dot">•</span>
+            <a class="link" href="https://github.com/Zahraaalmadeh" target="_blank" rel="noopener">GitHub</a>
+            <span class="dot">•</span>
+            <a class="link" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+
+        <a class="link" href="#top">Back to top ↑</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
