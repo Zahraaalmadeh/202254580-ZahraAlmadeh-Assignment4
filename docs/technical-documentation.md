@@ -88,42 +88,42 @@ The application follows a simple front-end structure:
 
 --- 
 ## 5. Performance
-   Optimizations:
-   Lazy loading images
-   Efficient DOM updates
-   Reusable functions
-   Minimal code redundancy
+   **Optimizations:** 
+   - Lazy loading images
+   - Efficient DOM updates
+   - Reusable functions
+   - Minimal code redundancy
 
 --- 
 ## 6. User Experience
-   Improvements include:
-   Clear instructions
-   Friendly validation messages
-   Responsive layout
-   Clean UI design
+   **Improvements include:** 
+   - Clear instructions 
+   - Friendly validation messages 
+   - Responsive layout 
+   - Clean UI design
 
 --- 
 ## 7. Compatibility
-   Tested on:
-   Chrome
-   Edge
-   Mobile screens
+   **Tested on:** 
+  -  Chrome
+  -  Edge 
+  - Mobile screens
 
 --- 
 ## 8. Real Projects
-   Airplane Accident Severity Classification
-   Python
+   - Airplane Accident Severity Classification
+   **Python
    Deep learning
-   92.3% accuracy
-   Campus Events Database System
-   SQL
-   Database normalization
-   Course Scheduling & Route Planner
-   Java
-   Design patterns
-   Student Records Management System
-   Java
-   Data structures
+   92.3% accuracy** 
+   - Campus Events Database System
+   **SQL
+   Database normalization** 
+   - Course Scheduling & Route Planner
+   **Java
+   Design patterns**
+   - Student Records Management System
+   **Java
+   Data structures**
 
 ---  
 ## 9. Conclusion
