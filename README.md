@@ -55,7 +55,7 @@ The goal of this project is to showcase my skills, academic projects, and techni
 ### ▶️ Run Locally
 
 1. Clone the repository:
-git clone https://github.com/your-username/id-name-assignment4.git
+git clone https://github.com/Zahraaalmadeh/202254580-ZahraAlmadeh-Assignment4.git
 2. Navigate to the project folder: cd 202254580-ZahraAlmadeh-Assignment4
 3. Open index.html in your browser
 ### 📌 Notes
