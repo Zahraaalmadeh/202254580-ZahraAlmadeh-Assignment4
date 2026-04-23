@@ -36,6 +36,9 @@ The application follows a simple front-end structure:
 - index.html → UI structure  
 - styles.css → layout and styling  
 - script.js → logic and interaction  
+
+--- 
+
 ## 4. Core Features
    ### 4.1 Theme Toggle
    Switch between light and dark mode
@@ -82,23 +85,31 @@ The application follows a simple front-end structure:
    Highlights it
    Scrolls into view
    This adds interactivity and uniqueness.
+
+--- 
 ## 5. Performance
    Optimizations:
    Lazy loading images
    Efficient DOM updates
    Reusable functions
    Minimal code redundancy
+
+--- 
 ## 6. User Experience
    Improvements include:
    Clear instructions
    Friendly validation messages
    Responsive layout
    Clean UI design
+
+--- 
 ## 7. Compatibility
    Tested on:
    Chrome
    Edge
    Mobile screens
+
+--- 
 ## 8. Real Projects
    Airplane Accident Severity Classification
    Python
@@ -113,11 +124,9 @@ The application follows a simple front-end structure:
    Student Records Management System
    Java
    Data structures
-## 9. Future Improvements
-   Project detail modal
-   Backend contact form
-   UI animations
-## 10. Conclusion
+
+---  
+## 9. Conclusion
     This project demonstrates:
     API integration
     advanced logic
