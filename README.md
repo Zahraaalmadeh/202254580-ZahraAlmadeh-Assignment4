@@ -51,14 +51,16 @@ The website showcases my background, skills, academic projects, and GitHub repos
 
 ### Run locally
 1. Clone the repository:
-```bash
+
 git clone https://github.com/your-username/id-name-assignment4.git
-Open the project folder:
-cd id-name-assignment4
-Open index.html in a modern browser such as Chrome or Edge.
-Important note
+
+2. Open the project folder:
+cd 202254580-ZahraAlmadeh-assignment4
+3. Open index.html in a modern browser such as Chrome or Edge.
+## Important note
 No package installation is required because this is a front-end application built with plain HTML, CSS, and JavaScript.
-Project Structure
+
+## Project Structure
 id-name-assignment4/
 ├── README.md
 ├── index.html
@@ -75,33 +77,30 @@ id-name-assignment4/
 │   ├── slides.pdf
 │   └── demo-video.mp4
 └── .gitignore
-Deployment
+4. Deployment
 This project should be deployed publicly for Assignment 4.
-Suggested deployment platforms:
 GitHub Pages
-Netlify
-Vercel
 Optional live link:
-Add your deployed URL here
-API Used
+
+5. API Used
 GitHub API
 The application uses the GitHub public API to display live repositories.
 Endpoint used:
 https://api.github.com/users/Zahraaalmadeh/repos
-AI Usage Summary
+6. AI Usage Summary
 AI tools were used to:
 improve JavaScript logic
 refine validation
 strengthen UI/UX design
-expand documentation
+7. expand documentation
 support feature planning and debugging
 Detailed documentation is included in:
 docs/ai-usage-report.md
-Presentation Deliverables
+8. Presentation Deliverables
 The final submission also includes:
 a professional demo video
 presentation slides
-updated technical documentation
+
 Author
 Zahra Almadeh
 Software Engineering Student at KFUPM
