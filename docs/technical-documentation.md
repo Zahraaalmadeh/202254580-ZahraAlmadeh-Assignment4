@@ -127,10 +127,10 @@ The application follows a simple front-end structure:
 
 ---  
 ## 9. Conclusion
-    This project demonstrates:
-    API integration
-    advanced logic
-    state management
-    user-focused design
-    professional documentation
-    It meets all Assignment 4 requirements.
+**This project demonstrates:**
+   -  API integration
+   -  advanced logic
+   - state management
+   - user-focused design
+   - professional documentation
+    **It meets all Assignment 4 requirements** 
