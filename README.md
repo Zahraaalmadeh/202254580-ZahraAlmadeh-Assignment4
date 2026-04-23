@@ -63,26 +63,26 @@ git clone https://github.com/your-username/id-name-assignment4.git
    - Works in any modern browser (Chrome, Edge)
 ### 📂 Project Structure
 **202254580-ZahraAlmadeh-Assignment4/
-├── README.md
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── images/
-├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
-├── presentation/
-│   ├── slides.pdf
-│   └── demo-video.mp4
-└── .gitignore**
-### 🌐 Deployment
-**This project can be deployed using:**
-- GitHub Pages
-**🔗 Live Demo :** 
-Add your deployed link here.
+    ├── README.md
+    ├── index.html
+    ├── css/
+    │   └── styles.css
+    ├── js/
+    │   └── script.js
+    ├── assets/
+    │   └── images/
+    ├── docs/
+    │   ├── ai-usage-report.md
+    │   └── technical-documentation.md
+    ├── presentation/
+    │   ├── slides.pdf
+    │   └── demo-video.mp4
+    └── .gitignore**
+### 🔗 Live Demo
+
+👉 https://zahraaalmadeh.github.io/202254580-ZahraAlmadeh-Assignment4/
+
+This link provides a fully deployed version of the application, accessible on any device.
 ###  🔗 API Used
   **GitHub API**
   https://api.github.com/users/Zahraaalmadeh/repos
