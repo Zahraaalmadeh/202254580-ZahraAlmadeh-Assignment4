@@ -62,22 +62,22 @@ git clone https://github.com/Zahraaalmadeh/202254580-ZahraAlmadeh-Assignment4.gi
    - No installation is required
    - Works in any modern browser (Chrome, Edge)
 ### 📂 Project Structure
-**202254580-ZahraAlmadeh-Assignment4/
-    ├── README.md
-    ├── index.html
-    ├── css/
-    │   └── styles.css
-    ├── js/
-    │   └── script.js
-    ├── assets/
-    │   └── images/
-    ├── docs/
-    │   ├── ai-usage-report.md
-    │   └── technical-documentation.md
-    ├── presentation/
-    │   ├── slides.pdf
-    │   └── demo-video.mp4
-    └── .gitignore**
+202254580-ZahraAlmadeh-Assignment4/
+├── README.md
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── script.js
+├── assets/
+│   └── images/
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+├── presentation/
+│   ├── slides.pdf
+│   └── demo-video.mp4
+└── .gitignore
 ### 🔗 Live Demo
 
 👉 https://zahraaalmadeh.github.io/202254580-ZahraAlmadeh-Assignment4/
