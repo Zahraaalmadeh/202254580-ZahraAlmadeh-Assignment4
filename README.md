@@ -98,7 +98,8 @@ This link provides a fully deployed version of the application, accessible on an
   - docs/ai-usage-report.md
 ### 🎤 Presentation Deliverables
   **Demo video (5 minutes)** 
-  - Presentation slides
+  - Presentation slides " if you can't view it just click this :https://raw.githubusercontent.com/Zahraaalmadeh/202254580-ZahraAlmadeh-Assignment4/main/presentation/slides.pdf
+    "
   - Demo video "you have to download it in your device to view it"
   ### 👩‍💻 Author
  ##  Zahra Almadeh
