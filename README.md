@@ -99,7 +99,7 @@ This link provides a fully deployed version of the application, accessible on an
 ### 🎤 Presentation Deliverables
   **Demo video (5 minutes)** 
   - Presentation slides
-  - Demo video 
+  - Demo video "you have to download it in your device to view it"
   ### 👩‍💻 Author
  ##  Zahra Almadeh
  ##  Software Engineering Student – KFUPM
